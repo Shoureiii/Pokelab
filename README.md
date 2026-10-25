@@ -1,4 +1,4 @@
-# PokéLab
+# Projek UTS: PokéLab
 
 PokéLab adalah aplikasi mobile berbasis Flutter untuk membantu penggemar Pokémon mengenal karakteristik Pokémon dan menyusun tim sederhana berdasarkan tipe.
 
