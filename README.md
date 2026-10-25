@@ -1,17 +1,29 @@
-# uts_prak
+# PokéLab
 
-A new Flutter project.
+PokéLab adalah aplikasi mobile berbasis Flutter untuk membantu penggemar Pokémon mengenal karakteristik Pokémon dan menyusun tim sederhana berdasarkan tipe.
 
-## Getting Started
+## Fitur
 
-This project is a starting point for a Flutter application.
+- Menjelajahi 10 Pokémon pilihan.
+- Mencari Pokémon berdasarkan nama atau nomor Pokédex.
+- Memfilter Pokémon berdasarkan tipe.
+- Melihat detail Pokémon, termasuk statistik, kemampuan, dan jalur evolusi.
+- Menyusun tim hingga enam Pokémon.
+- Melihat cakupan tipe dan kelemahan tipe dalam tim.
 
-A few resources to get you started if this is your first Flutter project:
+## Teknologi
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter dan Dart
+- Material Design 3
+- Data Pokémon contoh yang disimpan secara lokal
+- Ilustrasi Pokémon dimuat melalui URL gambar; koneksi internet diperlukan untuk menampilkannya
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Aplikasi belum mengambil data Pokémon dari API. Struktur proyek disiapkan agar sumber data dapat dikembangkan ke PokéAPI pada tahap berikutnya.
+
+## Menjalankan aplikasi
+
+Pastikan Flutter SDK sudah terpasang dan emulator atau perangkat Android tersedia. Dari direktori proyek, jalankan:
+
+```bash
+flutter pub get
+flutter run
